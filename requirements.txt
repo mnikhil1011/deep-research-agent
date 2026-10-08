@@ -1,0 +1,7 @@
+anthropic>=1.12
+langgraph>=1.2
+pydantic>=2.13
+tavily-python>=0.8
+python-dotenv>=1.2
+streamlit>=1.65
+pytest>=8
