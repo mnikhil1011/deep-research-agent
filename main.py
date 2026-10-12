@@ -14,11 +14,14 @@ REPORTS_DIR = Path("reports")
 
 
 def _describe(node: str, update: dict) -> str:
-    if node == "planner":
-        questions = "\n".join(f"    - {q}" for q in update["plan"].sub_questions)
-        return f"planned {len(update['plan'].sub_questions)} sub-questions\n{questions}"
+    if node == "orchestrator":
+        decision = update["decision"]
+        tasks = "".join(f"\n    - {task}" for task in decision.tasks)
+        return f"{decision.action}: {decision.reasoning}{tasks}"
     if node == "researcher":
-        return f"{len(update['findings'])} findings from {len(update['sources'])} sources"
+        report = update["task_reports"][0]
+        note = f" ({report.note})" if report.note else ""
+        return f"{report.findings} findings in {report.steps} steps{note}: {report.task}"
     return "report drafted"
 
 
@@ -26,13 +29,17 @@ def main() -> None:
     if len(sys.argv) < 2:
         sys.exit('Usage: python main.py "your research question"')
     query = " ".join(sys.argv[1:])
+    # Model-written text can hold characters the Windows console cannot print.
+    sys.stdout.reconfigure(errors="replace")
 
-    state: dict = {"usage": []}
-    for step in build_graph().stream({"query": query}, stream_mode="updates"):
-        for node, update in step.items():
+    state: dict = {}
+    stream = build_graph().stream({"query": query}, stream_mode=["updates", "values"])
+    for mode, chunk in stream:
+        if mode == "values":
+            state = chunk  # the full state after each step; the last one is final
+            continue
+        for node, update in chunk.items():
             print(f"[{node}] {_describe(node, update)}")
-            state["usage"] += update.pop("usage", [])
-            state.update(update)
 
     REPORTS_DIR.mkdir(exist_ok=True)
     slug = re.sub(r"[^a-z0-9]+", "-", query.lower()).strip("-")[:60]
@@ -43,7 +50,7 @@ def main() -> None:
     for agent in dict.fromkeys(u.agent for u in state["usage"]):
         calls = [u for u in state["usage"] if u.agent == agent]
         print(
-            f"  {agent:<11}{sum(u.input_tokens for u in calls):>8} /"
+            f"  {agent:<13}{sum(u.total_input_tokens for u in calls):>8} /"
             f"{sum(u.output_tokens for u in calls):>7}  ({len(calls)} calls, {calls[0].model})"
         )
     print(f"\nReport saved to {path}")

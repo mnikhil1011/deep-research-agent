@@ -1,0 +1,280 @@
+[
+  {
+    "id": "tech-01",
+    "tags": ["technology"],
+    "question": "What are the main technical approaches to solid-state batteries for electric vehicles, and which companies are closest to mass production?",
+    "aspects": [
+      "Describes at least two distinct technical approaches to solid-state batteries",
+      "Names specific companies developing solid-state batteries",
+      "States how close at least one named company is to mass production, with a date or a production stage"
+    ]
+  },
+  {
+    "id": "tech-02",
+    "tags": ["technology"],
+    "question": "How do the leading approaches to quantum error correction differ, and what milestones have been demonstrated experimentally so far?",
+    "aspects": [
+      "Describes at least two distinct approaches or codes for quantum error correction",
+      "Explains at least one way in which those approaches differ",
+      "Reports at least one experimentally demonstrated milestone, saying who achieved it and when"
+    ]
+  },
+  {
+    "id": "tech-03",
+    "tags": ["technology"],
+    "question": "What are the trade-offs between RISC-V and Arm for chip designers, and where has RISC-V been adopted commercially?",
+    "aspects": [
+      "States at least one advantage of RISC-V over Arm for chip designers",
+      "States at least one disadvantage or risk of RISC-V compared with Arm",
+      "Names at least one company or commercial product that has adopted RISC-V"
+    ]
+  },
+  {
+    "id": "tech-04",
+    "tags": ["technology"],
+    "question": "How does retrieval-augmented generation reduce hallucination in large language models, and what are its known limitations?",
+    "aspects": [
+      "Explains the mechanism by which retrieval-augmented generation grounds a model's answers",
+      "Reports evidence, such as a study or a measured result, on its effect on hallucination",
+      "Describes at least two limitations of retrieval-augmented generation"
+    ]
+  },
+  {
+    "id": "tech-05",
+    "tags": ["technology"],
+    "question": "What caused the global CrowdStrike IT outage in July 2024, how large was its impact, and what changes followed?",
+    "aspects": [
+      "Explains the technical cause of the outage",
+      "Quantifies the impact with at least one figure, such as devices affected, flights cancelled or cost",
+      "Describes at least one change made afterwards by CrowdStrike, Microsoft, customers or regulators"
+    ]
+  },
+  {
+    "id": "tech-06",
+    "tags": ["technology"],
+    "question": "What is the current state of post-quantum cryptography standardisation, and how are major technology companies preparing to migrate?",
+    "aspects": [
+      "Names the body leading standardisation and at least one standardised algorithm",
+      "Gives a timeline or deadline for migration",
+      "Describes a concrete migration step taken by at least one named technology company"
+    ]
+  },
+  {
+    "id": "sci-01",
+    "tags": ["science"],
+    "question": "What is known about the long-term safety and effectiveness of GLP-1 receptor agonists such as semaglutide for weight loss?",
+    "aspects": [
+      "Reports effectiveness with at least one figure from a named trial or study",
+      "Describes known side effects or safety concerns",
+      "Says what happens after treatment stops, or what remains unknown about long-term use"
+    ]
+  },
+  {
+    "id": "sci-02",
+    "tags": ["science"],
+    "question": "How do mRNA vaccines work, and what diseases beyond COVID-19 are they being tested against?",
+    "aspects": [
+      "Explains the mechanism by which an mRNA vaccine produces an immune response",
+      "Names at least two diseases other than COVID-19 that mRNA vaccines are being tested against",
+      "States the trial stage or a trial result for at least one of those vaccines"
+    ]
+  },
+  {
+    "id": "sci-03",
+    "tags": ["science"],
+    "question": "What has the James Webb Space Telescope revealed about early galaxies, and why did the findings surprise astronomers?",
+    "aspects": [
+      "Reports at least one specific finding about early galaxies",
+      "Explains why the finding conflicted with earlier models or expectations",
+      "Describes at least one proposed explanation or an ongoing scientific debate"
+    ]
+  },
+  {
+    "id": "sci-04",
+    "tags": ["science"],
+    "question": "What is the evidence for and against the claim that ultra-processed foods cause poor health outcomes?",
+    "aspects": [
+      "Reports evidence supporting the claim, citing at least one specific study or trial",
+      "Reports evidence against the claim or limitations of the supporting evidence",
+      "Explains how ultra-processed foods are defined or classified"
+    ]
+  },
+  {
+    "id": "sci-05",
+    "tags": ["science"],
+    "question": "How is CRISPR gene editing being used in approved medical treatments, and what are the main risks?",
+    "aspects": [
+      "Names at least one approved CRISPR-based therapy and the condition it treats",
+      "Explains how that therapy uses gene editing",
+      "Describes at least one risk or safety concern"
+    ]
+  },
+  {
+    "id": "sci-06",
+    "tags": ["science"],
+    "question": "What are the leading hypotheses for the cause of Alzheimer's disease, and how have recent drug trials tested them?",
+    "aspects": [
+      "Describes at least two hypotheses for the cause of Alzheimer's disease",
+      "Names at least one drug and reports the result of its trial",
+      "Says what remains uncertain or contested"
+    ]
+  },
+  {
+    "id": "biz-01",
+    "tags": ["business"],
+    "question": "How has the rise of GLP-1 weight-loss drugs affected the revenue and market value of Novo Nordisk and Eli Lilly?",
+    "aspects": [
+      "Gives at least one revenue or sales figure for Novo Nordisk",
+      "Gives at least one revenue or sales figure for Eli Lilly",
+      "Describes how the market value of at least one of the two companies changed",
+      "Identifies at least one constraint or competitive risk, such as supply, pricing or rivals"
+    ]
+  },
+  {
+    "id": "biz-02",
+    "tags": ["business"],
+    "question": "Why did Silicon Valley Bank collapse in March 2023, and what regulatory changes followed?",
+    "aspects": [
+      "Explains at least two factors that caused the collapse",
+      "Describes how quickly the collapse unfolded, with dates or the size of the deposit outflow",
+      "Describes at least one regulatory or government response"
+    ]
+  },
+  {
+    "id": "biz-03",
+    "tags": ["business"],
+    "question": "How do the business models of TSMC and Intel differ in semiconductor manufacturing, and how has each performed recently?",
+    "aspects": [
+      "Describes TSMC's business model",
+      "Describes Intel's business model",
+      "Gives at least one recent financial or market-share figure for TSMC",
+      "Gives at least one recent financial or market-share figure for Intel"
+    ]
+  },
+  {
+    "id": "biz-04",
+    "tags": ["business"],
+    "question": "What are the economics of small modular nuclear reactors, and which projects have been cancelled or delayed?",
+    "aspects": [
+      "Gives at least one cost figure or cost estimate for small modular reactors",
+      "Names at least one cancelled or delayed project and gives the reason",
+      "Presents at least one argument made for their commercial viability"
+    ]
+  },
+  {
+    "id": "biz-05",
+    "tags": ["business"],
+    "question": "How has remote and hybrid work changed demand for office real estate in major cities since 2020?",
+    "aspects": [
+      "Gives at least one vacancy, occupancy or attendance figure",
+      "Names at least one specific city and describes its office market",
+      "Describes a consequence for property values, owners, lenders or building conversions"
+    ]
+  },
+  {
+    "id": "biz-06",
+    "tags": ["business"],
+    "question": "What drove the growth of buy now, pay later services, and what regulatory concerns have they raised?",
+    "aspects": [
+      "Explains at least one driver of the growth of buy now, pay later services",
+      "Names at least one provider and gives a figure for its scale",
+      "Describes at least one regulatory concern or action, naming the regulator"
+    ]
+  },
+  {
+    "id": "pol-01",
+    "tags": ["policy"],
+    "question": "What does the EU AI Act require of providers of high-risk AI systems, and when do its obligations take effect?",
+    "aspects": [
+      "States at least two specific requirements placed on providers of high-risk AI systems",
+      "Gives at least one date on which obligations take effect",
+      "Explains what makes a system high-risk, or what penalties apply"
+    ]
+  },
+  {
+    "id": "pol-02",
+    "tags": ["policy"],
+    "question": "How do carbon border adjustment mechanisms work, and how have trading partners responded to the EU's?",
+    "aspects": [
+      "Explains how a carbon border adjustment mechanism works",
+      "States the timeline of the EU mechanism or the sectors it covers",
+      "Describes the response of at least one named trading partner"
+    ]
+  },
+  {
+    "id": "pol-03",
+    "tags": ["policy"],
+    "question": "What were the outcomes of the COP28 climate summit, and how were they received?",
+    "aspects": [
+      "Reports at least one concrete outcome agreed at the summit",
+      "Reports at least one funding commitment, with a figure",
+      "Describes the reaction of at least one named country, group or organisation"
+    ]
+  },
+  {
+    "id": "pol-04",
+    "tags": ["policy"],
+    "question": "What are the arguments for and against a universal basic income, and what have real-world pilots found?",
+    "aspects": [
+      "Presents at least one argument for a universal basic income",
+      "Presents at least one argument against it",
+      "Names at least one real-world pilot and reports a finding from it"
+    ]
+  },
+  {
+    "id": "pol-05",
+    "tags": ["policy"],
+    "question": "How have different countries regulated cryptocurrency exchanges since the collapse of FTX?",
+    "aspects": [
+      "Describes regulation in at least two named jurisdictions",
+      "Names at least one specific law, rule or enforcement action",
+      "Connects at least one regulatory change to the collapse of FTX"
+    ]
+  },
+  {
+    "id": "pol-06",
+    "tags": ["policy"],
+    "question": "What is the current status of right-to-repair legislation in the United States and the European Union?",
+    "aspects": [
+      "Describes at least one right-to-repair law in the United States, at state or federal level",
+      "Describes the European Union's rules on right to repair",
+      "States what manufacturers are required to do, or how industry has responded"
+    ]
+  },
+  {
+    "id": "trap-01",
+    "tags": ["trap", "science"],
+    "question": "Who won the 2019 Nobel Prize in Mathematics, and for what work?",
+    "false_premise": "There is no Nobel Prize in Mathematics. The Nobel Prizes have never included a mathematics category."
+  },
+  {
+    "id": "trap-02",
+    "tags": ["trap", "science"],
+    "question": "What did the crew of NASA's Apollo 18 mission achieve on the lunar surface in 1973?",
+    "false_premise": "Apollo 18 never flew. NASA cancelled the mission in 1970, and Apollo 17 in December 1972 was the last crewed Moon landing."
+  },
+  {
+    "id": "trap-03",
+    "tags": ["trap", "policy"],
+    "question": "How did the 2007 Treaty of Lisbon change the permanent membership of the UN Security Council?",
+    "false_premise": "The Treaty of Lisbon is a European Union treaty. It did not change the permanent membership of the UN Security Council, which had five permanent members both before and after it."
+  },
+  {
+    "id": "trap-04",
+    "tags": ["trap", "technology"],
+    "question": "Which programming language did Ada Lovelace use to write the first compiler in 1952?",
+    "false_premise": "Ada Lovelace died in 1852 and wrote no compiler. The compiler usually credited as the first, A-0, was written by Grace Hopper in 1952."
+  },
+  {
+    "id": "trap-05",
+    "tags": ["trap", "policy"],
+    "question": "What are the current population and GDP of the island nation of San Serriffe?",
+    "false_premise": "San Serriffe is not a real country. It was invented by The Guardian newspaper as an April Fools' Day hoax in 1977."
+  },
+  {
+    "id": "trap-06",
+    "tags": ["trap", "business"],
+    "question": "How much did Apple pay to acquire Netflix in 2018, and how did regulators respond?",
+    "false_premise": "Apple has never acquired Netflix. Some analysts speculated about such a deal around 2018, but no acquisition took place."
+  }
+]

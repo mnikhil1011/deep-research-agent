@@ -3,3 +3,13 @@
 __pycache__/
 .pytest_cache/
 reports/
+audits/
+.cache/
+
+# Eval evidence that is bulky or holds third-party page text. Scores are committed.
+evals/runs/**/traces/
+evals/runs/**/judge/
+evals/runs/**/review.md
+evals/runs/**/review_key.json
+evals/runs/report.html
+evals/runs/trajectory/

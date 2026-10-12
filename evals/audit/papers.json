@@ -1,0 +1,5 @@
+{
+  "note": "arXiv ids of the papers the audit benchmarks are built from. Each must have LaTeX source on arXiv. The tuning papers were used while writing the matching rules, so scores on them flatter the checker. Report the held_out scores. Changing either list changes the benchmark.",
+  "held_out": ["1810.04805", "2010.11929"],
+  "tuning": ["1706.03762", "1512.03385", "2602.06718"]
+}

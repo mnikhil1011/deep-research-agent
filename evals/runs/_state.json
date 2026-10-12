@@ -1,0 +1,28 @@
+{
+  "flow": "research-report",
+  "metrics": [
+    {"id": "groundedness", "label": "Groundedness", "kind": "judge", "scale": 1, "better": "higher"},
+    {"id": "completeness", "label": "Completeness", "kind": "judge", "scale": 1, "better": "higher"},
+    {"id": "trap_handled", "label": "Trap handled", "kind": "judge", "scale": 1, "better": "higher"},
+    {"id": "citation_accuracy", "label": "Cite accuracy", "kind": "judge", "scale": 1, "better": "higher"},
+    {"id": "citation_coverage", "label": "Cite coverage", "kind": "judge", "scale": 1, "better": "higher"},
+    {"id": "unsupported_rate", "label": "Unsupported", "kind": "judge", "scale": 1, "better": "lower"},
+    {"id": "valid_citations", "label": "Valid cites", "kind": "float", "scale": 1, "better": "higher"}
+  ],
+  "perf_fields": [
+    {"id": "latency_s", "label": "Latency", "unit": "s"},
+    {"id": "rounds", "label": "Rounds"},
+    {"id": "tasks", "label": "Tasks"},
+    {"id": "tool_calls", "label": "Tool calls"},
+    {"id": "web_searches", "label": "Searches"},
+    {"id": "pages_read", "label": "Pages read"},
+    {"id": "sources_cited", "label": "Sources cited"},
+    {"id": "report_words", "label": "Report words"}
+  ],
+  "prices": {
+    "claude-opus-5-5": {"in": 4.0, "out": 20.0},
+    "claude-sonnet-5-5": {"in": 2.0, "out": 10.0},
+    "claude-haiku-4-5": {"in": 1.0, "out": 5.0}
+  },
+  "harness_paths": []
+}
